@@ -19,6 +19,7 @@ Quick start
     INSTALLED_APPS = [
         ...
         'machine',
+        'crispy_forms',
     ]
 
     CRISPY_TEMPLATE_PACK = 'bootstrap4'
