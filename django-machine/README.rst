@@ -25,7 +25,8 @@ Quick start
     CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 2. Include the polls URLconf in your project urls.py like this::
-
+    from django.urls import include, path
+    
     path('machine/', include('machine.urls')),
 
 3. Install django-crispy-forms::
