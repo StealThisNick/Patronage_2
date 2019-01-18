@@ -1,0 +1,2 @@
+Requirements: 
+    Python, pip, django 2.1.5, pandas, statsmodels, django-crispy-forms
